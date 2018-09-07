@@ -1,0 +1,6 @@
+framework module Pods_SwiftJsonParsingCodableTests {
+  umbrella header "Pods-SwiftJsonParsingCodableTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
