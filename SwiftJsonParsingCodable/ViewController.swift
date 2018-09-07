@@ -37,8 +37,6 @@ class ViewController: UITableViewController {
 
     let cellIdentifier = "cell"
     
-    let API_URL = "https://pukkading.com/mobile_app/deals.php"
-    
     let App_URL_IOS = "https://pukkading.com/mobile_app/iosapp1.php"
     
     var arrayData = [BusinessData]()
