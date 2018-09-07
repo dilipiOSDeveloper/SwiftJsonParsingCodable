@@ -8,18 +8,6 @@
 import UIKit
 import Alamofire
 
-/*
-struct Response:Codable{
-    let status:String?
-    let result:[DealData]
-}
-
-struct DealData:Codable{
-    let deal_id: String?
-    let qrcode: String?
-    let description: String?
-}
-*/
 
 struct BusinessDetail:Codable{
     let status:String?
@@ -32,11 +20,14 @@ struct BusinessData:Codable{
     let address: String?
 }
 
+
+// https://jsoneditoronline.org/?id=4065720460124f86a7d1119a3fbd34de  HERE IS THE JSON Structure
+
 class ViewController: UITableViewController {
 
     let cellIdentifier = "cell"
     
-    let App_URL_IOS = "https://pukkading.com/mobile_app/iosapp1.php"
+    let App_URL_IOS = "your_url"
     
     var arrayData = [BusinessData]()
     
