@@ -1,9 +1,8 @@
 //
 //  ViewController.swift
 //  SwiftJsonParsingCodable
-//
-//  Created by Vikas Pundora on 07/09/18.
-//  Copyright © 2018 Vikas Pundora. All rights reserved.
+
+//  Copyright © 2018 
 //
 
 import UIKit
